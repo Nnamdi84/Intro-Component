@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    background-image: url(../images/bg-intro-mobile.png);
+    background-color:hsl(0, 100%, 74%) ;
+}
+main {
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    padding: 0 30px;
+    
+}
+.h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 60px 0 30px 0;
+    color: white;
+}
+.p1 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: white;
+}
+.button-one {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color:hsl(248, 32%, 49%) ;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.button-text {
+    font-size: 1rem;
+    padding-inline: 2rem;
+} 
+.login {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    border: 0;
+    border-radius: 10px;
+    padding: 0 30px;
+    /* border-bottom: 7px solid rgba(0, 0, 0, 0.19); */
+    
+    
+}
+.form-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: stretch;
+    margin-bottom: 5px;
+    
+}
+.l1 {
+    margin: 5px 0;
+    height: 40px;
+    border-radius: 5px;
+    border: hsl(246, 25%, 77%)
+    solid thin;
+    padding-left: 20px;
+    
+}
+::placeholder {
+    padding-left: 10px;
+}
+.button-two{
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    margin-bottom: 10px;
+    
+}
+.button-two:hover {
+    background-color: hsl(246, 25%, 77%);
+}
+.p2 {
+    font-size: 10px;
+    color: hsl(246, 25%, 77%);
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%); 
+    font-weight: bolder;
+}
+@media (min-width: 768px) {
+    body {
+        background-image: url(../images/bg-intro-desktop.png);
+        padding: 150px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        }
+    
+    main {
+        background-image: url(../images/bg-intro-desktop.png);
+        background-repeat: no-repeat;
+        background-color:  hsl(0, 100%, 74%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+     
+        
+        
+    }
+    .section {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 60px;
+        
+       
+    }
+    .button-one {
+        
+        padding-inline: 0;
+    }
+    .div-one {
+        margin-top: -50px;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+    }
+    .h1 {
+       text-align: left;
+    }
+    .p1 {
+        text-align: left;
+    }
+    .div-two {
+        width: 375px;
+        /* align-items: stretch; */
+    }
+}
